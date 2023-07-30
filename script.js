@@ -2,7 +2,7 @@ var counter = 0
 var en_haiku = document.getElementById("haiku-en")
 var jp_haiku = document.getElementById("haiku-jp")
 var haikus = $('#haikus')
-setInterval(change, 5000);
+setInterval(change, 9000);
 function change() {
     haikus.fadeOut(function(){
         jp_haiku.innerText = (haiku_arr[counter]["haiku"])
