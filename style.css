@@ -1,0 +1,54 @@
+body{
+    background-image: url(img/temple.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 20%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    font-size: 7vh;
+}
+
+.text {
+    font-size: 3.5vh;
+}
+
+.hkd{
+    padding: 3%;
+    padding-top: 5%;
+}
+
+.meaning {
+    width: 35vw;
+}
+
+.haikus {
+    display: flex;
+    flex-direction: column;
+}
+
+.haiku {
+    white-space: pre-wrap;
+    font-size: 5.5vh;
+    padding: 2%;
+    margin-left: 25%;
+}
+
+.maindisp {
+    width: 50vw;
+}
+
+/* English Divs */
+.en{
+    font-family: 'Playfair Display', serif;
+}
+
+/* Japani Divs */
+.jp{
+    font-family: 'Noto Serif JP', serif;
+}
